@@ -1,0 +1,157 @@
+*, h2, p {
+    margin: 0;
+    padding: 0;
+    font-family: "nunito sans";
+}
+body {
+    background-color: black;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: end;
+    margin-top: 107px;
+    padding: 0 134.45px;
+}
+.wr1-h2 {
+    color: #E3B873;
+    font-family: 'Yeseva One';
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.wr1-p {
+    color: white;
+}
+.wrapper2__img {
+    position: relative;
+    width: 679px;
+    height: 482.38px;
+}
+.wrapper2__img .image {
+    background-position-x: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 600ms;
+}
+.wrapper2__img .image.active {
+    opacity: 1;
+}
+.wrapper2__h2 {
+    color: #FFFFFF4D;
+}
+.hero__wrapper1 {
+    max-width: 442px;
+}
+.hero__wrapper2 {
+    flex-grow: 1;
+    max-width: 679px;
+}
+.wrapper1__h2 {
+    font-size: 27px;
+    line-height: 37.42px;
+    letter-spacing: -0.07em;
+}
+.wrapper1__block1 {
+    display: flex;
+    max-width: 253px;
+    margin-bottom: 34px;
+}
+.wrapper1__h2 {
+    width: 155px;
+}
+.wrapper1__stripe {
+    margin-top: 51.64px;
+    background-color: #E3B873;
+    height: 1px;
+    width: 92px;
+}
+.wrapper1__p {
+    font-size: 14px;
+    line-height: 26.73px;
+    margin-bottom: 42px;
+}
+.wrapper1__block2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 35px;
+}
+.wrapper1__content-h2 {
+    white-space: nowrap;
+    font-size: 18px;
+    line-height: 24.95px;
+    margin-bottom: 9px;
+}
+.wrapper1__block2 .wrapper1__content:nth-child(2), .wrapper1__block2 .wrapper1__content:nth-child(4) {
+    margin-right: 78px;
+}
+.images__text1, .images__text2, .images__text3, .images__text4 {
+    font-size: 13px;
+    line-height: 21.28px;   
+    margin-bottom: 34px;
+    color: white;
+    width: 120px;
+}
+.slider__title:nth-child(1)::after {
+    content: 'Rostov-on-Don, Admiral';
+}
+.slider__title:nth-child(2)::after {
+    content: 'Sochi Thieves';
+}
+.slider__title:nth-child(3)::after {
+    content: 'Rostov-on-Don Patriotic';
+}
+.slider__title {
+    color: #FFFFFF4D;
+    display: flex;
+    font-family: Yeseva One;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.4px;
+    text-transform: uppercase;
+    margin-right: 60.5px;
+    white-space: nowrap;
+    margin-bottom: 53.04px;
+}
+.wrapper2__content {
+    display: flex;
+}
+.slider__title:hover, .slider__title.active {
+    color: #E3B873;
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 6.68px;
+}
+.wrapper1__arrows {
+    display: flex;
+    cursor: pointer;
+}
+.left {
+    margin-right: 29.5px;
+}
+.right {
+    margin-left: 29.5px;
+}
+.wrapper1__dots {
+    display: flex;
+    margin-top: 5px;
+}
+.wrapper1__dots-item {
+    background-color: #FFFFFF4D;
+    width: 10px;
+    height: 10px;
+    margin-right: 17.54px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.4s ease;
+}
+.wrapper1__dots .wrapper1__dots-item:last-child {
+    margin-right: 0;
+}
+.wrapper1__dots-item:hover, .wrapper1__dots-item.active {
+    background-color: #FFFFFF;
+}
