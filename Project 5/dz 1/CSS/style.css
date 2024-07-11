@@ -1,0 +1,32 @@
+.btn {
+    display: flex;
+    background-color: #315efb;
+    cursor: pointer;
+    color: white;
+    border: none;
+    width: 200px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+.btn-text {
+    text-transform: uppercase;
+    margin-right: 5px;
+}
+.btn:hover {
+    transform: scale(1.06);
+}
+.icon {
+    width: 17px;
+    height: 17px;
+}
+.icon-two {
+    display: none;
+}
+.icon-one-magic {
+    display: none;
+}
+.icon-two-magic {
+    display: block;
+}
